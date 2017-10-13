@@ -4,3 +4,30 @@
   font-family: monospace;
   line-height: 10px;
 }
+
+.my-projects.header h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  background-color: #cccccc;
+
+}
+
+.card-header {
+  background-color: #A7A7A7;
+
+}
+
+.jumbotron {
+  background-color: #0b6990;
+}
+
+.btn-lg {
+  background-color: #f05413;
+}
+
+font-family: 'Poppins', sans-serif;
