@@ -2,67 +2,132 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>Programming Portfolio</title>
   </head>
   <body>
-    <h1>Cheryl Frankenfield</h1>
-    <h2>Programming Portfolio</h2>
-    <img src="img/headshot.jpg" rel="This is a headshot of myself for the portfolio." width="300" height="300">
-    <div class="sidebar">
-     <p>Epicodus Student</p>
-     <p>North Portland</p>
-     <p><a href="mailto:cherylfrankenfield@gmail.com">Email me!</a></p>
-    </div>
+    <div class="jumbotron">
+      <h1>Cheryl Frankenfield</h1>
+      <h2>Programming Portfolio</h2>
+      <img src="img/headshot.jpg" rel="This is a headshot of myself for the portfolio." width="300" height="300">
+        <div class="sidebar">
+         <p>Epicodus Student</p>
+         <p>North Portland</p>
+         <p><a href="mailto:cherylfrankenfield@gmail.com">Email me!</a></p>
+        </div>
+      </div>
 
     <h2>My Projects</h2>
-    <h4><em>Description:</em></h4>
-    <p>With a partner built a site on vacationing in Japan and perusing its <strong>amazing</strong> cheese. This project was an exercise in working with customizing Bootstrap components, working with grids, columns and rows.</p>
-    <h4>Languages Used:</h4>
-    <ol>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Bootstrap framework</li>
-    </ol>
-    <h4><em>Description:</em></h4>
-    <p>My partner and I built a site for an animal shelter. This exercise enabled us to practice Cascading elements, working with CSS inheritance and parent/child rules.</p>
-    <h4>Languages Used:</h4>
-    <ol>
-      <li>HTML</li>
-      <li>CSS</li>
-    </ol>
 
-    <h4><em>Description:</em></h4>
-    <p>Together with a partner, we built a fan website for <span style="color:#9933FF">Ben Folds.</span> For this project, we practiced floats, built a sidebar and played with column layouts.</p>
-    <h4>Languages Used:</h4>
-    <ol>
-      <li>HTML</li>
-      <li>CSS</li>
-    </ol>
+    <div class="container">
+      <div class="row">
 
-    <h4><em>Description:</em></h4>
-    <p>The two of us built a resume page for Maggie Smith. We implemented a sidebar and worked with lists.</p>
-    <h4>Languages Used:</h4>
-    <ol>
-      <li>HTML</li>
-      <li>CSS</li>
-    </ol>
+        <div class="col-md-6">
+          <div class="card" style="width: 40rem;">
+            <div class="card-header">
+              <h5><em>Description:</em></h5>
+            </div>
+            <div class="card-body">
+              <p>With a partner built a site on vacationing in Japan and perusing its <strong>amazing</strong> cheese. This project was an exercise in working with customizing Bootstrap components, working with grids, columns and rows.</p>
+              <h4>Languages Used:</h4>
+              <ol class="card-text">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap framework</li>
+              </ol>
+              <a href="#" class="btn: btn-info">Click here for more.</a>
+          </div>
+          </div>
+       </div>
 
-    <h4><em>Description:</em></h4>
-    <p>For this project, we created a cupcake shop website. We practiced adding the class element to our code.</p>
-    <h4>Languages Used:</h4>
-    <ol>
-      <li>HTML</li>
-      <li>CSS</li>
-    </ol>
+        <div class="col-md-6">
+          <div class="card" style="width: 40rem;">
+            <div class="card-header">
+              <h5><em>Description:</em></h5>
+            </div>
+            <div class="card-body">
+              <p>My partner and I built a site for an animal shelter. This exercise enabled us to practice Cascading elements, working with CSS inheritance and parent/child rules.</p>
+              <h4>Languages Used:</h4>
+              <ol class="card-text">
+                <li>HTML</li>
+                <li>CSS</li>
+              </ol>
+              <a href="#" class="btn: btn-info">Click here for more.</a>
+          </div>
+          </div>
+        </div>
 
-    <h4><em>Description:</em></h4>
-    <p>In this project, we created a resort website for the Kiwi Shack in New Zealand. We practiced different CSS styles for the same project and with that, learned about Git branching and merging documents.</p>
-    <h4>Languages Used:</h4>
-    <ol>
-      <li>HTML</li>
-      <li>CSS</li>
-    </ol>
+        <div class="col-md-6">
+          <div class="card" style="width: 40rem;">
+            <div class="card-header">
+              <h5><em>Description:</em></h5>
+            </div>
+            <div class="card-body">
+              <p>Together with a partner, we built a fan website for <span style="color:#9933FF">Ben Folds.</span> For this project, we practiced floats, built a sidebar and played with column layouts.</p>
+              <h4>Languages Used:</h4>
+              <ol class="card-text">
+                <li>HTML</li>
+                <li>CSS</li>
+              </ol>
+              <a href="#" class="btn: btn-info">Click here for more.</a>
+          </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card" style="width: 40rem;">
+            <div class="card-header">
+              <h5><em>Description:</em></h5>
+            </div>
+            <div class="card-body">
+              <p>The two of us built a resume page for Maggie Smith. We implemented a sidebar and worked with lists.</p>
+              <h4>Languages Used:</h4>
+              <ol card="text">
+                <li>HTML</li>
+                <li>CSS</li>
+              </ol>
+              <a href="#" class="btn: btn-info">Click here for more.</a>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-md-6">
+          <div class="card" style="width: 40rem;">
+            <div class="card-header">
+              <h5><em>Description:</em></h5>
+            </div>
+            <div class="card-body">
+              <p>For this project, we created a cupcake shop website. We practiced adding the class element to our code.</p>
+              <h4>Languages Used:</h4>
+              <ol class="card-text">
+                <li>HTML</li>
+                <li>CSS</li>
+              </ol>
+              <a href="#" class="btn: btn-info">Click here for more.</a>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-md-6">
+          <div class="card" style="width: 40rem;">
+            <div class="card-header">
+              <h5><em>Description:</em></h5>
+            </div>
+            <div class="card-body">
+              <p>In this project, we created a resort website for the Kiwi Shack in New Zealand. We practiced different CSS styles for the same project and with that, learned about Git branching and merging documents.</p>
+              <h4>Languages Used:</h4>
+              <ol class="card-text">
+                <li>HTML</li>
+                <li>CSS</li>
+              </ol>
+              <a href="#" class="btn: btn-info">Click here for more.</a>
+            </div>
+          </div>
+        </div>
+
+     </div>    
+    </div>
 
     <h2>About Me</h2>
     <h3>Background:</h3>
