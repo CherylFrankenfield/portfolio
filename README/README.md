@@ -1,28 +1,28 @@
 # My Programming Portfolio
 
-#### Create a portfolio website to display projects, 10.13.17
+#### A portfolio website to display projects, 10.13.17
 
-#### By _**Cheryl Frankenfield**_
+#### By **Cheryl Frankenfield**
 
 ## Description
 
-_This is practice from today's lessons. It is an overview of HTML, Block Elements, Inline Elements, Git, Tracking, Committing, Command Line, and Spacing._
+_This is my first solo project where I created an online portfolio linking to all the fun projects I did this week. It is an overview of HTML, Block Elements, Inline Elements, Git, Tracking, Committing, Command Line, and Spacing. Also included is a short About Me section and why I am learning to code._
 
 ## Setup/Installation Requirements
 
-* Login to GitHub
-* Install Atom
-* Follow Material
+* Navigate to cherylfrankenfield@github.io.com/portfolio
+* Follow material and links
+* No other setup or install necessary
 
 _Include additional details or instructions here._
 
 ## Known Bugs
 
-_Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place._
+_I tried to include a Google Font but so far it is not working. I moved on to other things but may have time to come back._
 
 ## Support and contact details
 
-_If you have any issues, questions, ideas or concerns, please contact me here or make a contribution to the code. [Click here] (http://mycat.blog) to check out more._
+_If you have any issues, questions, ideas or concerns, please contact me._
 
 ## Technologies Used
 
