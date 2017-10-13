@@ -10,6 +10,8 @@
   margin: 10px;
   border-radius: 10%;
   float: left;
+  img-fluid:
+
 }
 
 .email-me {
@@ -36,7 +38,10 @@
 
 .card-header {
   background-color: #A7A7A7;
+}
 
+.card-header h5 {
+  font-weight: bold;
 }
 
 .card-body {
@@ -44,10 +49,16 @@
 
 }
 
-.jumbotron {
+.jumbotron  {
   background-color: #0b6990;
   color: white;
   height: 500px;
+}
+
+.about-me-section {
+  position: fixed;
+  z-index: 2
+
 }
 
 .intro-text {
@@ -60,6 +71,19 @@
 
 .btn-lg {
     background-color: #f05413;
+}
+
+.jumbotron-fluid {
+  margin-bottom: 0px;
+  background-image: url(../img/shuksan.jpg);
+  background-position: 50% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.1em;
+  font-size: 17px;
+  padding: 20px;
+
 }
 
 font-family: 'Cabin', sans-serif;
