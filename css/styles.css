@@ -17,9 +17,13 @@
   font-size: 20px;
 }
 
-.my-projects.header h2 {
+#my-projects-header {
   font-weight: bold;
   text-align: center;
+  background-color: black;
+  color: white;
+  padding: 30px;
+
 }
 
 .card {
@@ -27,6 +31,7 @@
   background-color: #cccccc;
   margin: 10px;
   display: flex;
+
 }
 
 .card-header {
@@ -57,4 +62,4 @@
     background-color: #f05413;
 }
 
-font-family: 'Poppins', sans-serif;
+font-family: 'Cabin', sans-serif;
