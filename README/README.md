@@ -1,6 +1,6 @@
 # My Programming Portfolio
 
-#### Create a portfolio site to display, 10.13.17
+#### Create a portfolio website to display projects, 10.13.17
 
 #### By _**Cheryl Frankenfield**_
 
