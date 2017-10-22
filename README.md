@@ -10,7 +10,7 @@ _This is my first solo project where I created an online portfolio linking to al
 
 ## Setup/Installation Requirements
 
-* Navigate to cherylfrankenfield.github.io.com/portfolio
+* Navigate to cherylfrankenfield.github.io./portfolio
 * Follow material and links
 * No other setup or install necessary
 

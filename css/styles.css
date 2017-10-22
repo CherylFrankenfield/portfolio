@@ -24,13 +24,13 @@
   background-color: black;
   color: white;
   padding: 30px;
+  margin-top: -25px;
 }
 
 .card {
-  max-width: 100%;
   background-color: #cccccc;
   margin: 10px;
-  display: flex;
+
 }
 
 .card-header {
@@ -42,7 +42,7 @@
 }
 
 .card-body {
-  word-wrap:break-word;
+  word-wrap: break-word;
 }
 
 .jumbotron  {
@@ -54,7 +54,7 @@
 
 .about-me-section {
   position: fixed;
-  z-index: 2
+
 }
 
 .intro-text {
@@ -66,6 +66,7 @@
 
 .btn-lg {
     background-color: #f05413;
+    max-width: 50%;
 }
 
 .jumbotron-fluid {
@@ -78,8 +79,4 @@
   text-shadow: black 0.1em 0.1em 0.1em;
   font-size: 17px;
   padding: 20px;
-}
-
-.cabin {
-  font-family: 'Cabin', sans-serif;
 }
